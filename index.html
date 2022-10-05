@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	<section class="header"> 
+		<nav>
+			<a href="index.html"><img src="images/logo.png"></a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-window-close-o" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Work</a></li>
+					<li><a href="">About</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</div> 
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<div class="text-box">
+			<h1>Jinkal Patel, Graphic Desginer</h1>
+			<p>Graphic Desinger</p>
+			<a href="" class="hero-btn">Scroll down to see work</a>	
+		</div>
+	</section>
+
+	<!-- Design Section-->
+	<section class="work">
+		<h1>Types of Designs</h1>
+		<p>Description</p>
+		<div class="row">
+			<div class="work-col">
+				<h3>Flyer Design</h3>
+				<p>A flyer (or flier) is a form of paper advertisement intended for wide distribution and typically posted or distributed in a public place, handed out to individuals or sent through the mail. In the 2010s, flyers range from inexpensively photocopied leaflets to expensive, glossy, full-color circulars.</p>
+			</div>
+			<div class="work-col">
+				<h3>TypoGraphy</h3>
+				<p>Typography is the art of arranging letters and text in a way that makes the copy legible, clear, and visually appealing to the reader. It involves font style, appearance, and structure, which aims to elicit certain emotions and convey specific messages. In short, typography is what brings the text to life.</p>
+			</div>
+			<div class="work-col">
+				<h3>Infographic</h3>
+				<p>Infographics are graphic visual representations of information, data, or knowledge intended to present information quickly and clearly. They can improve cognition by utilizing graphics to enhance the human visual system's ability to see patterns and trends.</p>
+			</div>
+		</div>
+	</section>
+
+<!-- Work section-->
+	<section class="about">
+		<h1>Typography</h1>
+		<p>Typography is the art of arranging letters and text in a way that makes the copy legible, clear, and visually appealing to the reader. It involves font style, appearance, and structure, which aims to elicit certain emotions and convey specific messages. In short, typography is what brings the text to life.</p>
+
+		<div class="row">
+			<div class="col1">
+				<img src="images/India.png">
+				<div class="layer">
+					<h3>Independence</h3>
+					
+				</div>
+			</div>
+			<div class="col1">
+				<img src="images/BW.png">
+				<div class="layer">
+					<h3>Think Twice</h3>
+					
+				</div>
+			</div>
+			<div class="col1">
+				<img src="images/Birthday.png">
+				<div class="layer">
+					<h3>Happy Birthday</h3>
+					
+				</div>
+			</div>
+		</div>
+
+
+
+
+		<h1>Infographic</h1>
+		<p>Infographics are graphic visual representations of information, data, or knowledge intended to present information quickly and clearly. They can improve cognition by utilizing graphics to enhance the human visual system's ability to see patterns and trends.</p>
+		<div class="row">
+			<div class="col1">
+				<img src="images/Sports.png">
+				<div class="layer">
+					<h3>Encourage Sports</h3>
+					
+				</div>
+			</div>
+			<div class="col1">
+				<img src="images/Recycling.png">
+				<div class="layer">
+					<h3>Save Earth</h3>
+					
+				</div>
+			</div>
+			<div class="col1">
+				<img src="images/Bday.png">
+				<div class="layer">
+					<h3>My Journey</h3>
+					
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+		<h1>Flyer Design</h1>
+		<p>Infographics are graphic visual representations of information, data, or knowledge intended to present information quickly and clearly. They can improve cognition by utilizing graphics to enhance the human visual system's ability to see patterns and trends.</p>
+		<div class="row">
+			<div class="col1">
+				<img src="images/Wednesday.jpg">
+				<div class="layer">
+					<h3>Encourage Sports</h3>
+					
+				</div>
+			</div>
+			<div class="col1">
+				<img src="images/SantoInvitation.jpg">
+				<div class="layer">
+					<h3>Save Earth</h3>
+					
+				</div>
+			</div>
+			<div class="col1">
+				<img src="images/Invite.jpg">
+				<div class="layer">
+					<h3>My Journey</h3>
+					
+				</div>
+			</div>
+		</div>
+
+
+
+
+	</section>
+
+	<!-- Footer-->
+
+	<section class="footer">
+		<h4>Contact me</h4>
+		<p>Connected through social media</p>
+		<div class="icons">
+			<i class="fa fa-facebook"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-linkedin"></i>
+		</div>
+		<p>Made by Jinkal Patel</p>
+	</section>
+
+	<!-- Java Script -->
+	<script type="text/javascript">
+		var navLinks = document.getElementById("navLinks");
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+
+	</script>
+</body>
+</html>  
